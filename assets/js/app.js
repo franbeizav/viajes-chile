@@ -12,4 +12,11 @@ $(document).ready(function(){
         });
     }
   });
+$(window).scroll(function(){
+    if($("#menu").offset().top > 700) {
+        $("#menu").addClass("bg-secondary");   
+    } else{
+        $("#menu").removeClass("bg-secondary");
+    }
+});
 });
