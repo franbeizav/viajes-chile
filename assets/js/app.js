@@ -13,7 +13,7 @@ $(document).ready(function(){
     }
   });
 $(window).scroll(function(){
-    if($("#menu").offset().top > 420) {
+    if($("#menu").offset().top > 250) {
         $("#menu").addClass("bg-info");   
     } else{
         $("#menu").removeClass("bg-info");

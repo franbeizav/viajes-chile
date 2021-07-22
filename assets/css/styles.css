@@ -1,1 +1,24 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .black{background-color: rgb(8, 8, 8);}
+
+h2{
+  font-weight: 400;
+}
+.t-light{
+  font-weight: 300;
+}
+
+.t-semilight{
+  font-weight: 400;
+}
+.icono{
+  width: 2rem;
+  height: 2rem;
+}
+
+hr{
+  height:0.008rem;
+}
