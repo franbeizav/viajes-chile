@@ -10,30 +10,30 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="bg-dark">
-    <header class="header">
+    <header class="header" id="inicio">
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container px-5">
               <h2 class=" text-white lobster display-5" href="#">Viajes Chile</h2>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"> Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="#inicio"> Inicio <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Quienes Somos</a>
+                    <a class="nav-link text-white" href="#quienesomos">Quienes Somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Destacados</a>
+                    <a class="nav-link text-white" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators quienesomos" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -54,7 +54,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-          <section>
+          <section id="quienesomos">
               <div class="container text-white">
                   <h2 class="text-center">¿Quiénes Somos?</h2>
                   <hr class="bg-info">
@@ -71,7 +71,7 @@
                   </div>
               </div>
           </section>
-          <section>
+          <section id="destacados">
               <div class="container text-white">
                 <h2 class="text-center">Destacados</h2>
                 <hr class="bg-info">
@@ -118,8 +118,9 @@
               
           </section>
 
-          <section>
-            <h2>Contacto</h2>
+          <section id="contacto" >
+            <h2 class="text-center text-light">Contacto</h2>
+            <hr class="bg-info"> 
           </section>
 
           <footer class="bg-info text-light">
