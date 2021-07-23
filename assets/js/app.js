@@ -27,5 +27,8 @@ $('#title-quienesomos').click(function(){
 $('#title-destacados').click(function(){
   $('#body-destacados').slideToggle(700);
 });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 });
