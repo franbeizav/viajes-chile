@@ -19,4 +19,13 @@ $(window).scroll(function(){
         $("#menu").removeClass("bg-info");
     }
 });
+
+$('#title-quienesomos').click(function(){
+  $('#body-quienesomos').slideToggle(700);
+});
+
+$('#title-destacados').click(function(){
+  $('#body-destacados').slideToggle(700);
+});
+
 });
